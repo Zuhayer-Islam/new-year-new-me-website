@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    width: 100%;
+    height: 808px;
+}
+
+.banner {
+    float: right;
+    text-align: right;
+    margin-right: 230px;
+}
+
+.banner-title {
+    color: #151414;
+    margin-top: 216px;
+    margin-bottom: 24px;
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    margin-left: 845px;
+    /* margin-right: 230px; */
+}
+
+.banner-description {
+    color: #444343;
+    width: 494px;
+    height: 78px;
+    margin-left: 875px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    /* margin-top: 32px; */
+    border: none;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+/* main */
+main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.failure {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.kichu-ekta {
+    margin-top: 370px;
+    width: 416px;
+    height: 400px;
+}
+
+.plan-title {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.plan {
+    /* text-align: center; */
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-sub {
+    /* text-align: center; */
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.gradient-pic {
+    display: block;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grd-title {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    padding-top: 60px;
+    padding-left: 64px;
+}
+
+.call {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    margin-left: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
