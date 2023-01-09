@@ -50,10 +50,19 @@ main {
     margin: 0 auto;
 }
 
-.failure {
+/* .failure {
     display: flex;
     gap: 90px;
     justify-content: center;
+} */
+
+.new-failure {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .kichu-ekta {
@@ -120,4 +129,79 @@ main {
     background: #FFFFFF;
     border-radius: 5px;
     border: 0;
+}
+
+/* Footer */
+
+.last-part {
+    display: flex;
+    margin-top: 130px;
+    background: #151414;
+    gap: 290px;
+}
+
+.sub-btn {
+    border: 0;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    width: 170.11px;
+    height: 64px;
+    padding: 20px 36px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.future {
+    width: 485px;
+    height: 100%;
+    margin-left: 230px;
+    margin-top: 130px;
+}
+.future a{
+    text-decoration: none;
+}
+.subscribe {
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+}
+
+.subscribe input {
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2836.3px;
+    margin-bottom: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.future-des {
+    color: #FFFFFF;
+    width: 485px;
+    height: 78px;
+    margin-bottom: 24px;
+}
+.email{
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.phone{
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.sub-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
 }
